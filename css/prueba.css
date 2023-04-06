@@ -1,0 +1,69 @@
+body{
+    background-image: url("images/fondo1.jpg");
+    
+    
+    }
+    
+      
+    /* .div.grid{
+        display: grid;
+        width: 100%;
+        height: 95vh;
+        border :1px solid black ;
+        grid-template-columns: auto auto auto ;
+        grid-template-columns: 50%  50%  50% 50%  ;
+        grid-template-rows:    50%  50%  50% 50%; 
+    }
+    
+    .item{
+        
+        color: white;
+        
+    
+        
+        border :2px solid black ;
+    }
+    
+    
+    
+    
+    #item1 {
+        background-color: #0E1628;
+        grid-row: 1;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        
+        
+    }
+      
+    
+    #item2{
+        background-color: #F13A4B;
+        grid-row: 1;
+        grid-column-start: 2;  /* coge de la columna 1 */
+        grid-column-end: 6; /* hasta la columna 2 (la columna 2 no incluida) */
+    
+    }
+      
+      #item3 {
+        background-color: #4685C4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 2;  /* coge de la columna 1 */
+        grid-column-end: 4; /* hasta la columna 2 (la columna 2 no incluida) */
+    }
+    #item4{
+        background-color: #223349;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 4;  /* coge de la columna 1 */
+        grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+    }
+    .item5{
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 4;  /* coge de la columna 1 */
+        grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+    }
+    
+    

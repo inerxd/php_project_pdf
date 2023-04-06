@@ -1,0 +1,130 @@
+div.dataTables_wrapper {
+     margin-bottom: 3em;
+ }
+ div.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  div.grid {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;  /*4 columnas de 25 % cada una*/
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% ; /*5 filas de 10% 30% 20% 20% 20%*/
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+ 
+
+#item{
+
+    grid-row: 1; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item2{
+  
+    grid-row: 1; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item3{
+
+    grid-row: 2; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item4{
+
+    grid-row: 2; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item5{
+  
+    grid-row: 3; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item6{
+  
+    grid-row: 3; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item7{
+ 
+    grid-row: 4; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item8{
+
+    grid-row: 4; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item9{
+
+    grid-row: 5; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item10{
+  
+    grid-row: 5; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item11{
+ 
+    grid-row: 6; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item12{
+
+    grid-row: 6; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item13{
+ 
+    grid-row: 7; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item14{
+ 
+    grid-row: 7; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}
+#item15{
+  
+    grid-row: 8; /* fila1 */
+    grid-column-start: 1;  /* coge de la columna 1 */
+    grid-column-end: 5; /* hasta la columna 2 (la columna 2 no incluida) */
+}
+
+#item16{
+   
+    grid-row: 8; /* fila1 */
+    grid-column-start: 5; /* coge de la columna 2 */
+    grid-column-end: 9; /* hasta la columna 5 (la columna 5 no incluida) */
+}

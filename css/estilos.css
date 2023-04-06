@@ -1,0 +1,34 @@
+
+
+body{
+
+    
+        /* background-image: url("css/images/fondo2.png"); */
+        
+     /*   background-repeat: no-repeat;*/
+     background-color: bisque;
+        
+}
+
+
+
+
+
+table, th, td {
+    border: 1px solid black;
+     
+}
+td{
+    width:95%;
+}
+
+div.radius{
+    border-radius: 4em;
+}
+.ca{
+    width:100%;
+    border-radius: 5px;
+
+border: 1px solid black;
+text-align: center;
+}

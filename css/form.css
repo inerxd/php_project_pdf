@@ -1,0 +1,33 @@
+body{
+    background-image: url("images/fondo.jpg");
+    }
+
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+     
+}
+
+.container2 .esposo{
+    width: 40%;
+    margin: 2%;
+}
+
+.container2 .esposa{
+    width: 40%;
+    margin: 2%;
+}
+    .item{
+    color: black;
+    border :1px solid black ;
+    
+}
+
+div.estilo
+{
+    align-items: center;
+}

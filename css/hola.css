@@ -1,0 +1,12 @@
+body{
+    background-image: url("images/fondo.jpg");
+    }
+
+
+input{
+    border: 5px;
+}
+input{
+    border-style: outset;;
+}
+
